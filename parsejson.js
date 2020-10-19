@@ -41,7 +41,7 @@ const getUIDNode = (trees, values, key="uid", childKey="children", nodes=[] ) =>
 console.log(fetchRoamResearch, typeof (fetchRoamResearch))
 const ROAM_URL = "https://roamresearch.com/#/app/markus";
 const ROAM_EMAIL = "strasser.ms@gmail.com";
-const ROAM_PASSWORD = "Hoogle2008!";
+const ROAM_PASSWORD = "your_password!";
 
 
 const getFirstChild = node => node.children ? node.children[0] : {string: "nope"}
